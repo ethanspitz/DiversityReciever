@@ -6496,6 +6496,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R32" library="rcl" deviceset="R-US_" device="R0603" value="50"/>
 <part name="C63" library="rcl" deviceset="C-US" device="C1206" value="6.8uF"/>
 <part name="C64" library="rcl" deviceset="C-US" device="C1206" value="6.8uF"/>
+<part name="U$22" library="12-ChannelEMG" deviceset="DIVERSITYPWR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6570,6 +6571,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="484.378" y="38.862" size="1.778" layer="91" rot="R90">1206</text>
 <text x="385.318" y="110.744" size="1.778" layer="91" rot="R90">1206</text>
 <text x="385.318" y="87.884" size="1.778" layer="91" rot="R90">1206</text>
+<text x="132.08" y="-7.62" size="1.778" layer="91">Power Connector</text>
 </plain>
 <instances>
 <instance part="IC1" gate="P" x="55.88" y="53.34"/>
@@ -6709,6 +6711,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="382.905" y="89.916" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="387.731" y="89.916" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$22" gate="G$1" x="137.16" y="-12.7" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -7203,6 +7206,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="492.76" y="35.56"/>
 <junction x="492.76" y="33.02"/>
 </segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="GND"/>
+<wire x1="142.24" y1="-12.7" x2="144.78" y2="-12.7" width="0.1524" layer="91"/>
+<label x="144.78" y="-12.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="-5V" class="0">
 <segment>
@@ -7502,6 +7510,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="375.92" y="93.98" size="1.778" layer="95" rot="R90"/>
 <junction x="375.92" y="96.52"/>
 </segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="-5V"/>
+<wire x1="142.24" y1="-15.24" x2="144.78" y2="-15.24" width="0.1524" layer="91"/>
+<label x="144.78" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -7792,6 +7805,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="375.92" y1="106.68" x2="375.92" y2="104.14" width="0.1524" layer="91"/>
 <label x="375.92" y="104.14" size="1.778" layer="95" rot="R90"/>
 <junction x="375.92" y="106.68"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="+5V"/>
+<wire x1="142.24" y1="-10.16" x2="144.78" y2="-10.16" width="0.1524" layer="91"/>
+<label x="144.78" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
