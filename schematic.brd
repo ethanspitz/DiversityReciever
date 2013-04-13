@@ -2141,8 +2141,60 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="23.368" y="63.246"/>
 <vertex x="23.368" y="76.454"/>
 </polygon>
-<wire x1="35.052" y1="130.172" x2="20.066" y2="129.918" width="0" layer="19" extent="1-1"/>
-<wire x1="56.642" y1="9.782" x2="41.656" y2="9.528" width="0" layer="19" extent="1-1"/>
+<polygon width="0.7112" layer="16">
+<vertex x="49.022" y="79.756"/>
+<vertex x="59.182" y="79.756"/>
+<vertex x="59.182" y="60.198"/>
+<vertex x="49.022" y="60.198"/>
+</polygon>
+<via x="49.784" y="60.452" extent="1-16" drill="0.6"/>
+<via x="50.546" y="61.214" extent="1-16" drill="0.6"/>
+<via x="51.308" y="61.976" extent="1-16" drill="0.6"/>
+<via x="52.07" y="62.738" extent="1-16" drill="0.6"/>
+<via x="52.832" y="63.5" extent="1-16" drill="0.6"/>
+<via x="54.102" y="63.754" extent="1-16" drill="0.6"/>
+<via x="55.372" y="63.5" extent="1-16" drill="0.6"/>
+<via x="56.134" y="62.738" extent="1-16" drill="0.6"/>
+<via x="56.896" y="61.976" extent="1-16" drill="0.6"/>
+<via x="57.658" y="61.214" extent="1-16" drill="0.6"/>
+<via x="58.42" y="60.452" extent="1-16" drill="0.6"/>
+<via x="58.42" y="79.502" extent="1-16" drill="0.6"/>
+<via x="57.658" y="78.74" extent="1-16" drill="0.6"/>
+<via x="56.896" y="77.978" extent="1-16" drill="0.6"/>
+<via x="56.134" y="77.216" extent="1-16" drill="0.6"/>
+<via x="55.372" y="76.454" extent="1-16" drill="0.6"/>
+<via x="54.102" y="76.2" extent="1-16" drill="0.6"/>
+<via x="52.832" y="76.454" extent="1-16" drill="0.6"/>
+<via x="52.07" y="77.216" extent="1-16" drill="0.6"/>
+<via x="51.308" y="77.978" extent="1-16" drill="0.6"/>
+<via x="50.546" y="78.74" extent="1-16" drill="0.6"/>
+<via x="49.784" y="79.502" extent="1-16" drill="0.6"/>
+<via x="49.276" y="75.438" extent="1-16" drill="0.6"/>
+<via x="50.038" y="74.676" extent="1-16" drill="0.6"/>
+<via x="50.8" y="73.914" extent="1-16" drill="0.6"/>
+<via x="51.054" y="72.898" extent="1-16" drill="0.6"/>
+<via x="51.308" y="71.882" extent="1-16" drill="0.6"/>
+<via x="51.308" y="70.866" extent="1-16" drill="0.6"/>
+<via x="51.308" y="69.85" extent="1-16" drill="0.6"/>
+<via x="51.308" y="68.834" extent="1-16" drill="0.6"/>
+<via x="51.308" y="67.818" extent="1-16" drill="0.6"/>
+<via x="51.054" y="66.802" extent="1-16" drill="0.6"/>
+<via x="50.8" y="65.786" extent="1-16" drill="0.6"/>
+<via x="50.038" y="65.024" extent="1-16" drill="0.6"/>
+<via x="49.276" y="64.262" extent="1-16" drill="0.6"/>
+<via x="58.928" y="64.262" extent="1-16" drill="0.6"/>
+<via x="58.166" y="65.024" extent="1-16" drill="0.6"/>
+<via x="57.404" y="65.786" extent="1-16" drill="0.6"/>
+<via x="57.15" y="66.802" extent="1-16" drill="0.6"/>
+<via x="56.896" y="67.818" extent="1-16" drill="0.6"/>
+<via x="56.896" y="68.834" extent="1-16" drill="0.6"/>
+<via x="56.896" y="69.85" extent="1-16" drill="0.6"/>
+<via x="56.896" y="70.866" extent="1-16" drill="0.6"/>
+<via x="56.896" y="71.882" extent="1-16" drill="0.6"/>
+<via x="57.15" y="72.898" extent="1-16" drill="0.6"/>
+<via x="57.404" y="73.914" extent="1-16" drill="0.6"/>
+<via x="58.166" y="74.676" extent="1-16" drill="0.6"/>
+<via x="58.928" y="75.438" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="+5V">
 <contactref element="IC1" pad="8"/>
@@ -2230,8 +2282,8 @@ Please make sure your boards conform to these design rules.</description>
 <polygon width="0.7112" layer="1" isolate="0.6096" rank="3">
 <vertex x="74.676" y="7.62"/>
 <vertex x="84.836" y="7.62"/>
-<vertex x="84.582" y="62.738"/>
-<vertex x="74.422" y="62.738"/>
+<vertex x="84.836" y="62.738"/>
+<vertex x="74.676" y="62.738"/>
 </polygon>
 <wire x1="73.025" y1="36.452" x2="73.025" y2="35.941" width="0.7112" layer="1"/>
 <wire x1="73.025" y1="36.452" x2="73.025" y2="36.957" width="0.7112" layer="1"/>
@@ -2423,7 +2475,34 @@ Please make sure your boards conform to these design rules.</description>
 <via x="77.216" y="61.722" extent="1-16" drill="0.6"/>
 <via x="76.2" y="61.722" extent="1-16" drill="0.6"/>
 <via x="75.184" y="61.722" extent="1-16" drill="0.6"/>
-<wire x1="48.006" y1="9.782" x2="64.516" y2="9.528" width="0" layer="19" extent="1-1"/>
+<polygon width="0.7112" layer="16">
+<vertex x="32.766" y="93.98"/>
+<vertex x="32.766" y="86.36"/>
+<vertex x="63.754" y="86.36"/>
+<vertex x="63.754" y="93.98"/>
+</polygon>
+<via x="33.02" y="86.614" extent="1-16" drill="0.6"/>
+<via x="33.02" y="87.63" extent="1-16" drill="0.6"/>
+<via x="33.02" y="88.646" extent="1-16" drill="0.6"/>
+<via x="33.02" y="89.662" extent="1-16" drill="0.6"/>
+<via x="33.02" y="90.678" extent="1-16" drill="0.6"/>
+<via x="33.02" y="91.694" extent="1-16" drill="0.6"/>
+<via x="33.02" y="92.71" extent="1-16" drill="0.6"/>
+<via x="33.02" y="93.726" extent="1-16" drill="0.6"/>
+<polygon width="0.7112" layer="16">
+<vertex x="75.184" y="45.72"/>
+<vertex x="75.184" y="53.34"/>
+<vertex x="44.196" y="53.34"/>
+<vertex x="44.196" y="45.72"/>
+</polygon>
+<via x="74.93" y="53.086" extent="1-16" drill="0.6"/>
+<via x="74.93" y="52.07" extent="1-16" drill="0.6"/>
+<via x="74.93" y="51.054" extent="1-16" drill="0.6"/>
+<via x="74.93" y="50.038" extent="1-16" drill="0.6"/>
+<via x="74.93" y="49.022" extent="1-16" drill="0.6"/>
+<via x="74.93" y="48.006" extent="1-16" drill="0.6"/>
+<via x="74.93" y="46.99" extent="1-16" drill="0.6"/>
+<via x="74.93" y="45.974" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC1" pad="4"/>
