@@ -208,6 +208,10 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <pad name="GND" x="0" y="0" drill="1.27" shape="long" rot="R90"/>
 <pad name="+5V" x="5.0038" y="0" drill="1.27" shape="long" rot="R90"/>
 <pad name="-5" x="-5.0038" y="0" drill="1.27" shape="long" rot="R90"/>
+<wire x1="-7.747" y1="-4.064" x2="7.747" y2="-4.064" width="0.127" layer="21"/>
+<wire x1="7.747" y1="-4.064" x2="7.747" y2="4.064" width="0.127" layer="21"/>
+<wire x1="7.747" y1="4.064" x2="-7.747" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-7.747" y1="4.064" x2="-7.747" y2="-4.064" width="0.127" layer="21"/>
 </package>
 <package name="BNCPADS">
 <smd name="2" x="0" y="0" dx="5.08" dy="2.413" layer="1" rot="R90"/>
@@ -1981,6 +1985,22 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="72.263" y="19.431" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="72.263" y="16.891" size="1.27" layer="27"/>
 </element>
+<element name="C69" library="rcl" package="C0402" value="0.1uF" x="77.47" y="16.002" smashed="yes" rot="R180">
+<attribute name="NAME" x="78.359" y="18.161" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="78.105" y="17.907" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="C70" library="rcl" package="C0402" value="0.1uF" x="95.504" y="16.51" smashed="yes">
+<attribute name="NAME" x="95.631" y="12.573" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="94.869" y="14.605" size="1.27" layer="27"/>
+</element>
+<element name="C71" library="rcl" package="C0402" value="0.1uF" x="12.7" y="123.19" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.573" y="122.555" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="13.335" y="125.095" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="C72" library="rcl" package="C0402" value="0.1uF" x="30.734" y="123.698" smashed="yes">
+<attribute name="NAME" x="29.083" y="121.539" size="1.27" layer="25"/>
+<attribute name="VALUE" x="30.099" y="121.793" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="-5V">
@@ -2278,6 +2298,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="49.276" y="65.786" extent="1-16" drill="0.6"/>
 <via x="49.276" y="66.802" extent="1-16" drill="0.6"/>
 <via x="49.276" y="67.818" extent="1-16" drill="0.6"/>
+<contactref element="C70" pad="1"/>
+<contactref element="C71" pad="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="IC1" pad="8"/>
@@ -2638,6 +2660,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="58.674" y="98.044" extent="1-16" drill="0.6"/>
 <via x="57.658" y="98.044" extent="1-16" drill="0.6"/>
 <via x="56.642" y="98.044" extent="1-16" drill="0.6"/>
+<contactref element="C69" pad="1"/>
+<contactref element="C72" pad="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC1" pad="4"/>
@@ -3793,7 +3817,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="96.774" y="19.558" extent="1-16" drill="0.6"/>
 <via x="96.774" y="18.542" extent="1-16" drill="0.6"/>
 <via x="96.774" y="17.526" extent="1-16" drill="0.6"/>
-<via x="96.774" y="16.51" extent="1-16" drill="0.6"/>
 <via x="96.774" y="15.494" extent="1-16" drill="0.6"/>
 <via x="96.774" y="14.478" extent="1-16" drill="0.6"/>
 <via x="96.774" y="13.462" extent="1-16" drill="0.6"/>
@@ -3928,7 +3951,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="11.43" y="120.142" extent="1-16" drill="0.6"/>
 <via x="11.43" y="121.158" extent="1-16" drill="0.6"/>
 <via x="11.43" y="122.174" extent="1-16" drill="0.6"/>
-<via x="11.43" y="123.19" extent="1-16" drill="0.6"/>
 <via x="11.43" y="124.206" extent="1-16" drill="0.6"/>
 <via x="11.43" y="125.222" extent="1-16" drill="0.6"/>
 <via x="11.43" y="126.238" extent="1-16" drill="0.6"/>
@@ -3969,6 +3991,12 @@ Please make sure your boards conform to these design rules.</description>
 <via x="12.645446875" y="66.230146875" extent="1-16" drill="0.6"/>
 <via x="12.331484375" y="67.19641875" extent="1-16" drill="0.6"/>
 <via x="12.017525" y="68.16269375" extent="1-16" drill="0.6"/>
+<contactref element="C69" pad="2"/>
+<contactref element="C70" pad="2"/>
+<contactref element="C71" pad="2"/>
+<contactref element="C72" pad="2"/>
+<wire x1="76.82" y1="16.002" x2="75.692" y2="16.002" width="0.7112" layer="1"/>
+<wire x1="31.384" y1="123.698" x2="32.512" y2="123.698" width="0.7112" layer="1"/>
 </signal>
 <signal name="N$19">
 <polygon width="0" layer="1" pour="cutout">
