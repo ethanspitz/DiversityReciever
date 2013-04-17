@@ -127,10 +127,14 @@
 <circle x="54.102" y="69.85" radius="21" width="0.4064" layer="21"/>
 <circle x="54.102" y="69.85" radius="24" width="0.4064" layer="21"/>
 <text x="7.62" y="3.81" size="1.778" layer="21">GND</text>
-<text x="100.584" y="135.89" size="1.778" layer="21" rot="R180">GND</text>
+<text x="99.06" y="135.89" size="1.778" layer="21" rot="R180">GND</text>
 <hole x="54.102" y="88.9" drill="3.302"/>
 <hole x="70.59978125" y="60.325" drill="3.302"/>
 <hole x="37.604215625" y="60.325" drill="3.302"/>
+<hole x="5.334" y="5.334" drill="5.08"/>
+<hole x="102.87" y="5.334" drill="5.08"/>
+<hole x="102.87" y="134.62" drill="5.08"/>
+<hole x="5.334" y="134.366" drill="5.08"/>
 </plain>
 <libraries>
 <library name="analog-devices">
