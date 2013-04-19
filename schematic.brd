@@ -217,6 +217,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <smd name="2" x="0" y="0" dx="5.08" dy="2.413" layer="1" rot="R90"/>
 <smd name="1" x="-4.3688" y="0" dx="5.08" dy="2.413" layer="1" rot="R90"/>
 <smd name="3" x="4.3688" y="0" dx="5.08" dy="2.413" layer="1" rot="R90"/>
+<smd name="5" x="4.3688" y="0" dx="5.08" dy="2.413" layer="16" rot="R90"/>
+<smd name="4" x="-4.3688" y="0" dx="5.08" dy="2.413" layer="16" rot="R90"/>
 </package>
 <package name="SOT-23">
 <smd name="5" x="-0.95" y="1.2192" dx="0.5588" dy="1.27" layer="1" rot="R180"/>
@@ -3816,8 +3818,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="96.774" y="20.574" extent="1-16" drill="0.6"/>
 <via x="96.774" y="19.558" extent="1-16" drill="0.6"/>
 <via x="96.774" y="18.542" extent="1-16" drill="0.6"/>
-<via x="96.774" y="17.526" extent="1-16" drill="0.6"/>
-<via x="96.774" y="15.494" extent="1-16" drill="0.6"/>
 <via x="96.774" y="14.478" extent="1-16" drill="0.6"/>
 <via x="96.774" y="13.462" extent="1-16" drill="0.6"/>
 <via x="96.774" y="12.446" extent="1-16" drill="0.6"/>
@@ -3950,8 +3950,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="11.43" y="119.126" extent="1-16" drill="0.6"/>
 <via x="11.43" y="120.142" extent="1-16" drill="0.6"/>
 <via x="11.43" y="121.158" extent="1-16" drill="0.6"/>
-<via x="11.43" y="122.174" extent="1-16" drill="0.6"/>
-<via x="11.43" y="124.206" extent="1-16" drill="0.6"/>
 <via x="11.43" y="125.222" extent="1-16" drill="0.6"/>
 <via x="11.43" y="126.238" extent="1-16" drill="0.6"/>
 <via x="11.43" y="127.254" extent="1-16" drill="0.6"/>
@@ -3997,6 +3995,22 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C72" pad="2"/>
 <wire x1="76.82" y1="16.002" x2="75.692" y2="16.002" width="0.7112" layer="1"/>
 <wire x1="31.384" y1="123.698" x2="32.512" y2="123.698" width="0.7112" layer="1"/>
+<contactref element="U$4" pad="5"/>
+<contactref element="U$4" pad="4"/>
+<contactref element="U$5" pad="5"/>
+<contactref element="U$5" pad="4"/>
+<contactref element="U$9" pad="5"/>
+<contactref element="U$9" pad="4"/>
+<contactref element="U$10" pad="5"/>
+<contactref element="U$10" pad="4"/>
+<contactref element="U$14" pad="5"/>
+<contactref element="U$14" pad="4"/>
+<contactref element="U$15" pad="5"/>
+<contactref element="U$15" pad="4"/>
+<contactref element="U$19" pad="5"/>
+<contactref element="U$19" pad="4"/>
+<contactref element="U$20" pad="5"/>
+<contactref element="U$20" pad="4"/>
 </signal>
 <signal name="N$19">
 <polygon width="0" layer="1" pour="cutout">

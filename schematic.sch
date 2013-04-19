@@ -232,6 +232,8 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8015.pdf</desc
 <smd name="2" x="0" y="0" dx="5.08" dy="2.413" layer="1" rot="R90"/>
 <smd name="1" x="-4.3688" y="0" dx="5.08" dy="2.413" layer="1" rot="R90"/>
 <smd name="3" x="4.3688" y="0" dx="5.08" dy="2.413" layer="1" rot="R90"/>
+<smd name="5" x="4.3688" y="0" dx="5.08" dy="2.413" layer="16" rot="R90"/>
+<smd name="4" x="-4.3688" y="0" dx="5.08" dy="2.413" layer="16" rot="R90"/>
 </package>
 <package name="SOT-23">
 <smd name="5" x="-0.95" y="1.2192" dx="0.5588" dy="1.27" layer="1" rot="R180"/>
@@ -375,8 +377,8 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8015.pdf</desc
 <devices>
 <device name="" package="BNCPADS">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="GND2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="1 4"/>
+<connect gate="G$1" pin="GND2" pad="3 5"/>
 <connect gate="G$1" pin="SIGNAL" pad="2"/>
 </connects>
 <technologies>
@@ -6588,6 +6590,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="385.318" y="110.744" size="1.778" layer="91" rot="R90">1206</text>
 <text x="385.318" y="87.884" size="1.778" layer="91" rot="R90">1206</text>
 <text x="132.08" y="-7.62" size="1.778" layer="91">Power Connector</text>
+<text x="158.496" y="33.02" size="1.778" layer="91" rot="R180">0603</text>
+<text x="167.64" y="-21.844" size="1.778" layer="91" rot="R270">0603</text>
+<text x="167.64" y="-34.544" size="1.778" layer="91" rot="R270">0603</text>
+<text x="132.08" y="-34.544" size="1.778" layer="91" rot="R270">0603</text>
+<text x="132.08" y="-21.844" size="1.778" layer="91" rot="R270">0603</text>
 </plain>
 <instances>
 <instance part="IC1" gate="P" x="55.88" y="53.34"/>
